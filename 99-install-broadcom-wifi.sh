@@ -1,3 +1,4 @@
+#!/bin/bash
 #Install the rpmfusion repo, note only "nonfree" is required, as the Broadcom Driver is proprietry: http://rpmfusion.org/
 su -c 'dnf install -y http://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm'
 
