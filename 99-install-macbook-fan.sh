@@ -1,3 +1,4 @@
+#!/bin/bash
 #Download the source code
 git clone https://github.com/dgraziotin/mbpfan.git
 #Move to working directory
