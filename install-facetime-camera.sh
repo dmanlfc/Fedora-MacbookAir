@@ -19,9 +19,6 @@ fi
 if [ ! -d "/etc/modules-load.d/facetimehd.conf" ]; then
   echo "Creating FaceTimeHD config file..."
   cat > "/etc/modules-load.d/facetimehd.conf" << EOL
-  #videobuf2-core
-  #videobuf2_v4l2
-  #videobuf2-dma-sg
   facetimehd
   EOL
 fi
