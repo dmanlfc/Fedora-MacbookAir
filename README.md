@@ -1,5 +1,5 @@
 # Fedora-MacbookAir
-A set of driver scripts I use to make my Macbook Air 7,2 (2015) run Fedora 28
+A set of driver scripts I use to make my Macbook Air 7,2 (2017) run Fedora 28
 
 ## install-broadcom-wifi.sh
 Downloads the RPM Fusion repo & installs the Broadcom Wirless LAN driver
