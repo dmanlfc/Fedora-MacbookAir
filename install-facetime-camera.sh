@@ -36,9 +36,7 @@ else
   #check file exists
   if [ ! -d "/etc/modules-load.d/facetimehd.conf" ]; then
     echo "Creating FaceTimeHD config file..."
-    cat > "/etc/modules-load.d/facetimehd.conf" << EOL
-    facetimehd
-    EOL
+    echo > "/etc/modules-load.d/facetimehd.conf" facetimehd
   fi
   echo "**************************************"
   echo "* FaceTime HD installation complete! *"
